@@ -39,6 +39,6 @@ def rename_fun(path_directory,d_path):
 
                     
 if __name__ == "__main__":
-    dire_path = r"D:\program output\file_practice_automation\file_rename"  # file location
-    destination_rename_file = r"D:\program output\file_practice_automation\file_rename\rename_file" # rename file location
+    dire_path = r""  # file location
+    destination_rename_file = r"" # rename file location
     rename_fun(dire_path,destination_rename_file)
