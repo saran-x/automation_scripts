@@ -21,6 +21,6 @@ def back_up(f_path,d_path):
             shutil.copy(starting,destination)
             print("✅ successfully backup  ")
 if __name__ == "__main__":
-    f_path = r"D:\program output\file_practice_automation\files_backup" # To paste the files paths
-    d_path = r"D:\program output\file_practice_automation\files_backup\backup" # Backup desination of the paths
+    f_path = r"" # To paste the files paths
+    d_path = r"" # Backup desination of the paths
     back_up(f_path,d_path)
