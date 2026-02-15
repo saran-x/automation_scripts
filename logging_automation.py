@@ -34,6 +34,7 @@ def files_moving(path_s,detination_d):
 
 
 if __name__ == "__main__":
-    path_s = r"D:\program output\file_practice_automation\files_backup"
-    detination_d = r"D:\program output\file_practice_automation\logging"
+    path_s = r"" # paste your location
+    detination_d = r"" # paste your destination
+
     files_moving(path_s,detination_d)
